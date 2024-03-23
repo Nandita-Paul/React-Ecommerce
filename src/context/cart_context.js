@@ -5,10 +5,15 @@ const CartContext = createContext();
 
 const getLocalCartData = () => {
   let localCartData = localStorage.getItem("thapaCart");
-  if (localCartData === []) {
+  try {
+    if (!localCartData || JSON.parse(localCartData) === null) {
+      return [];
+    } else {
+      return JSON.parse(localCartData);
+    }
+  } catch (error) {
+    console.error("Error parsing local cart data:", error);
     return [];
-  } else {
-    return JSON.parse(localCartData);
   }
 };
 
