@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <Wrapper>
       <div className="container">
-        <div className="grid grid-three-column">
+        <div className="grid grid-three-column sv-sec">
           <div className="services-1">
             <div>
               <TbTruckDelivery className="icon" />
@@ -64,7 +64,9 @@ const Wrapper = styled.section`
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   }
-
+.sv-sec svg path{
+  color: ${({ theme }) => theme.colors.helper}
+}
   .services-2 {
     gap: 4rem;
     background-color: transparent;

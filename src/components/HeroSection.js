@@ -56,7 +56,7 @@ const Wrapper = styled.section`
     }
 
     .intro-data {
-      margin-bottom: 0;
+      margin-bottom: 0;color:#EC4000;
     }
   }
 
@@ -74,7 +74,7 @@ const Wrapper = styled.section`
       content: "";
       width: 60%;
       height: 80%;
-      background-color: rgba(81, 56, 238, 0.4);
+      background-color: #EC4000;
       position: absolute;
       left: 50%;
       top: -5rem;

@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
+        <div className="logo-sec">
         <img src="./images/logo.png" alt="my logo img" />
+        </div>
       </NavLink>
       <Nav />
     </MainHeader>
@@ -22,7 +24,9 @@ const MainHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   position: relative;
-
+.logo-sec img{
+  height:60px
+}
   .logo {
     height: 5rem;
   }

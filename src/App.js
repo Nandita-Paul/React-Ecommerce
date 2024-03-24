@@ -19,11 +19,11 @@ const App = () => {
       text: "rgba(29 ,29, 29, .8)",
       white: "#fff",
       black: " #212529",
-      helper: "#8490ff",
+      helper: "#EC4000",
 
       bg: "#F6F8FA",
       footer_bg: "#0a1435",
-      btn: "rgb(98 84 243)",
+      btn: "#EC4000",
       border: "rgba(98, 84, 243, 0.5)",
       hr: "#ffffff",
       gradient:

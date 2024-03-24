@@ -31,7 +31,9 @@ const Wrapper = styled.section`
   .container {
     max-width: 120rem;
   }
-
+  .intro-data{
+    color: ${({ theme }) => theme.colors.helper};
+  }
   figure {
     width: auto;
     display: flex;
@@ -100,7 +102,7 @@ const Wrapper = styled.section`
     .card-data--price {
       color: ${({ theme }) => theme.colors.helper};
     }
-
+   
     .btn {
       margin: 2rem auto;
       background-color: rgb(0 0 0 / 0%);
